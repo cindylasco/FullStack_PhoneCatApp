@@ -63,17 +63,17 @@ http://localhost:3000
 $ node server.js
 
 _SCHEMA DIAGRAM_
-https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/FullStack_PhoneCatApp_ERD.png
+![fullstack](https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/FullStack_PhoneCatApp_ERD.png?raw=true)
 
 _READ MODULE_
 This is where you can find the list of the phones and read the information for each phone stored in the database.
-https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/PhoneList.jpg
+![fullstack](https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/PhoneList.jpg?raw=true)
 
 _UPDATE MODULE_
 In this module, this is where you can apply changes by editing the information of the phone by clicking the Update button as shown in the last figure.
-https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/PhoneBoard.jpg
-https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/UpdatePage1.jpg
-https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/UpdatePage2.jpg
+![fullstack](https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/PhoneBoard.jpg?raw=true)
+![fullstack](https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/UpdatePage1.jpg?raw=true)
+![fullstack](https://github.com/cindylasco/FullStack_PhoneCatApp/blob/master/UpdatePage2.jpg?raw=true)
 
 
 
