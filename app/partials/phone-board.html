@@ -1,0 +1,94 @@
+
+<div class="container" ng-controller="PhoneBoardCtrl">
+
+ <h2>Phone Board</h2> 
+ 
+		<div class="panel-heading">
+		 <a class='btn btn-primary' href="/#/phones">Back to Phone List</a>   
+		 <br></br>
+		  <table class="table table-bordered">
+			<thead>
+			  <tr>
+				<th>Action</th>
+				<th>Phone No</th>
+				<th>Age</th>
+				<th>Carrier</th>
+				<th>ID</th>
+				<th>Image URL</th>
+				<th>Name</th>
+				<th>Snippet</th>
+				<th>Description</th>
+				<th>Availability</th>
+				<th>OS</th>
+				<th>UI</th>
+				<th>Features</th>
+				<th>Primary</th>
+				<th>Standby Time</th>
+				<th>Talk Time</th>
+				<th>Battery Type</th>
+				<th>Bluetooth</th>
+				<th>Cell</th>
+				<th>GPS</th>
+				<th>Infrared</th>
+				<th>Wifi</th>
+				<th>Screen Resolution</th>
+				<th>Screen Size</th>
+				<th>Touch Screen</th>
+				<th>Accelerometer</th>
+				<th>Audio Jack</th>
+				<th>CPU</th>
+				<th>FM Radio</th>
+				<th>Physical Keyboard</th>
+				<th>USB</th>
+				<th>Images</th>
+				<th>Dimension</th>
+				<th>Weight</th>
+				<th>RAM</th>
+				<th>Flash</th>
+			  </tr>
+			</thead>
+			<tbody>
+			  <tr  ng-repeat="phone in phones">
+				<td>
+				<a href="/#/updatePhone/{{phone.id}}" class="btn btn-success btn-sm" ><i class="glyphicon glyphicon-pencil"></i></button></a></td>
+				</td>
+				<td>{{phone.phoneId}}</td>
+				<td>{{phone.age}}</td>
+				<td>{{phone.carrier}}</td>
+				<td>{{phone.id}}</td>
+				<td>{{phone.imageUrl}}</td>
+				<td>{{phone.name}}</td>
+				<td>{{phone.snippet}}</td>
+				<td>{{phone.description}}</td>
+				<td>{{phone.availability}}</td>
+				<td>{{phone.os}}</td>
+				<td>{{phone.ui}}</td>
+				<td>{{phone.features}}</td>
+				<td>{{phone.primary}}</td>
+				<td>{{phone.standbyTime}}</td>
+				<td>{{phone.talkTime}}</td>
+				<td>{{phone.type}}</td>
+				<td>{{phone.bluetooth}}</td>
+				<td>{{phone.cell}}</td>
+				<td>{{phone.gps}}</td>
+				<td>{{phone.infrared}}</td>
+				<td>{{phone.wifi}}</td>
+				<td>{{phone.screenResolution}}</td>
+				<td>{{phone.screenSize}}</td>
+				<td>{{phone.touchScreen}}</td>
+				<td>{{phone.accelerometer}}</td>
+				<td>{{phone.audioJack}}</td>
+				<td>{{phone.cpu}}</td>
+				<td>{{phone.fmRadio}}</td>
+				<td>{{phone.physicalKeyboard}}</td>
+				<td>{{phone.usb}}</td>
+				<td>{{phone.images}}</td>
+				<td>{{phone.dimensions}}</td>
+				<td>{{phone.weight}}</td>
+				<td>{{phone.ram}}</td>
+				<td>{{phone.flash}}</td>
+			  </tr>
+			</tbody>
+		  </table>
+		</div>
+	</div>
